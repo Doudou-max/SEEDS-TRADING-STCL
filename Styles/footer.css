@@ -1,0 +1,44 @@
+
+
+/* footer styles*/
+.footer-section {
+    background-color: #cbcbcb;
+    color: #11122b;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.footer-section > .logo-footer img {
+    width: 180px;
+    height: 100%;
+   /* filter: brightness(50%); */
+   opacity: 0.5;
+}
+
+.footer-section > .footer-phone span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer-section > .footer-Email span {
+    font-size: 0.8em;
+    color: #cea135;
+}
+
+.footer-section > .links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer-section > .copyright {
+    margin-bottom: 42px;
+    font: 0.7em;
+    color: #858585;
+}

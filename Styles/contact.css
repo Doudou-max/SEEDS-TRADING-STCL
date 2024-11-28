@@ -1,0 +1,22 @@
+.contact-grid-wrapper {
+    width: 200px;
+    display: grid;
+    grid-gap: 10px
+}
+
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    display: flex;
+    font-family: "ubuntu condensed", sans-serif;
+    font-weight: 900;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    align-items: center;
+    font-size: 1.25em;
+}
